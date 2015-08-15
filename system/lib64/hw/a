@@ -1,0 +1,15 @@
+libEGL.so
+libExynosHWCService.so
+libGLESv1_CM.so
+libcec.so
+libdisplay.so
+libdisplaymodule.so
+libexynosgscaler.so
+libexynosutils.so
+libexynosv4l2.so
+libhdmi.so
+libhdmimodule.so
+libhwcutils.so
+libmpp.so
+libvirtualdisplay.so
+libvirtualdisplaymodule.so

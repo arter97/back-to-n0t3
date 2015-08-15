@@ -1,3 +1,4 @@
+#version=001
 #=====================================================================
 #
 #   :: Bluetooth IOP Database
@@ -351,8 +352,6 @@ ProcessAvrcKey KEY_BDADDR="04:98:f3:*"
 ProcessAvrcKey KEY_BDADDR="30:14:4A:*"
 /* Volkswagen Touareg */
 ProcessAvrcKey KEY_BDADDR="9c:df:03:*"
-/* Seat BT AC */
-ProcessAvrcKey KEY_BDADDR="e0:75:0a:*"
 
 #---------------------------------------------------------------------
 # :: Wait before sending call end indication +CIEV:1,0.
@@ -461,88 +460,3 @@ AvChangeAvrcpVersion KEY_BDADDR="00:09:93:*"
 RejectEScoConnReq KEY_BDADDR="00:0d:fd:*"
 /* PLT_K100 */
 RejectEScoConnReq KEY_BDADDR="00:23:7f:*"
-
-#----------------------------------------------------------------------
-#   :: Enforce slave role
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-#         KEY_LMP_VER    : LMP version & subversion
-#         KEY_LMP_MFCT   : Manufacturer
-#         KEY_DIR_ALL    : 0 to apply only for incoming connections
-#                          1 to allow for all directions (default if key not present)
-#
-
-/* Bose */
-EnforceSlaveRole KEY_BDADDR="00:0c:8a:*" KEY_DIR_ALL="0"
-/* BMW_ULF */
-EnforceSlaveRole KEY_BDADDR="00:09:93:*" KEY_DIR_ALL="0"
-/* Tenqa */
-EnforceSlaveRole KEY_BDADDR="00:23:01:*" KEY_DIR_ALL="0"
-/* Savox */
-EnforceSlaveRole KEY_BDADDR="00:15:be:*" KEY_DIR_ALL="0"
-
-#----------------------------------------------------------------------
-#   :: Disable slave role
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* BlueMe */
-DisableSniff KEY_BDADDR="a9:b1:c8:*"
-/* BlueMe */
-DisableSniff KEY_BDADDR="00:14:09:*"
-/* PCM */
-DisableSniff KEY_BDADDR="00:0e:9f:*"
-/* NISSAN */
-#DisableSniff KEY_BDADDR="38:c0:96:*"
-
-#----------------------------------------------------------------------
-#   :: Extend sniff time
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* MBBluetooth NTG3.0 */
-ExtendSniffTime KEY_BDADDR="00:13:1e:*"
-/* KIA Carkit */
-#ExtendSniffTime KEY_BDADDR="00:1e:b2:*"
-/* AUDI */
-#ExtendSniffTime KEY_BDADDR="00:1e:43:*"
-
-#----------------------------------------------------------------------
-#   :: Skip disable sniff policy
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* Samsung BKB A1 */
-SkipDisableSniff KEY_BDADDR="00:19:01:*"
-/* Samsung BKB A2 */
-SkipDisableSniff KEY_BDADDR="20:73:0d:*"
-/* Samsung BKB 10 */
-SkipDisableSniff KEY_BDADDR="90:7f:61:*"
-
-#----------------------------------------------------------------------
-#   :: Don't care ESCO Retransmission
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* Plantronics E240 */
-EscoRetransDontcare KEY_BDADDR="00:23:7f:*"
-
-#----------------------------------------------------------------------
-#   :: Skip Send Sdp Info request
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* PRC ECO2 */
-SkipSdpInfo KEY_BDADDR="00:07:80:*"

@@ -215,14 +215,12 @@ Only the three quirks included above are recognized at this point:
             <Quirk name="decoder-ignores-streamcorrupt-error" />
         </MediaCodec>
         <MediaCodec name="OMX.SEC.avc.sw.dec" type="video/avc" >
-            <Quirk name="decoder-ignores-streamcorrupt-error" />
-            <Limit name="size" min="64x64" max="2048x2048" />
+	    <Quirk name="decoder-ignores-streamcorrupt-error" />
             <Feature name="adaptive-playback" />
         </MediaCodec>
         <MediaCodec name="OMX.SEC.hevc.sw.dec" type="video/hevc" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
-            <Limit name="size" min="64x64" max="2048x2048" />
-            <Feature name="adaptive-playback" />
+	    <Feature name="adaptive-playback" />
         </MediaCodec>
         <MediaCodec name="OMX.SEC.mpeg4.sw.dec" type="video/mp4v-es" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
@@ -246,7 +244,6 @@ Only the three quirks included above are recognized at this point:
         </MediaCodec>
         <MediaCodec name="OMX.SEC.vp8.dec" type="video/x-vnd.on2.vp8" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
-            <Limit name="size" min="64x64" max="2048x2048" />
             <Feature name="adaptive-playback" />
         </MediaCodec>
 

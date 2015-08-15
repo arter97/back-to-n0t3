@@ -67,13 +67,27 @@ ro.hwui.fbo_cache_size=16
 #
 # system.prop for universal7420
 #
+rild.libpath=/system/lib64/libsec-ril.so
+rild.libargs=-d /dev/ttyS0
+
 ro.sf.lcd_density=560
+
+# RIL team modification
+# netmgrd should be false in EVO-RIL model
+ro.use_data_netmgrd=false
+
+# RIL team modification
+# qos will temporary false while supporting qos in EVO-RIL.
+persist.data.netmgrd.qos.enable=false
 
 ro.arch=exynos7420
 persist.demo.hdmirotationlock=false
 ro.zygote.disable_gl_preload=1
 
-ro.sf.lcd_density=560
+# GSM should be 0
+telephony.lteOnCdmaDevice=0
+# Start in gsm mode
+ro.telephony.default_network=9
 
 # Multimedia property for Smart View
 media.enable-commonsource=true
@@ -115,7 +129,6 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
 ro.opengles.version=196609
-ro.sf.lcd_density=480
 debug.hwc.force_gpu=0
 debug.hwc.nodirtyregion=0
 debug.hwc.winupdate=1
@@ -144,7 +157,7 @@ ro.frp.pst=/dev/block/persistent
 ro.error.receiver.default=com.samsung.receiver.error
 ro.config.dha_cached_min=4
 ro.config.dha_empty_min=8
-ro.config.dha_lmk_scale=2.363
+ro.config.dha_lmk_scale=1.909
 ro.config.dha_pwhitelist_enable=1
 config.disable_atlas=true
 keyguard.no_require_sim=true
