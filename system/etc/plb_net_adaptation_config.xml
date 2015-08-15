@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!DOCTYPE NetAdaptationSettings [
+<!ELEMENT NetAdaptationSettings (ParameterProfile)>
+<!ELEMENT ParameterProfile (Rate, Filter)>
+<!ATTLIST ParameterProfile quality (1080p|720p|480p|240p) #REQUIRED>
+<!ELEMENT Rate EMPTY>
+<!ATTLIST Rate min CDATA #REQUIRED>
+<!ATTLIST Rate max CDATA #REQUIRED>
+<!ATTLIST Rate normStep CDATA #REQUIRED>
+<!ATTLIST Rate rapidStep CDATA #REQUIRED>
+<!ATTLIST Rate stepOffset CDATA #IMPLIED>
+<!ELEMENT Filter EMPTY>
+<!ATTLIST Filter appliedToMin CDATA #IMPLIED>
+]>
+
+<NetAdaptationSettings>
+    <ParameterProfile quality="1080p">
+        <Rate
+            min="2000000"
+            max="3000000"
+            normStep="500000"
+            rapidStep="1000000"
+            stepOffset="100000" />
+    </ParameterProfile>
+
+    <ParameterProfile quality="720p">
+        <Rate
+            min="1000000"
+            max="2000000"
+            normStep="500000"
+            rapidStep="1000000"
+            stepOffset="100000" />
+		<Filter
+            appliedToMin="1000000" />
+    </ParameterProfile>
+
+    <ParameterProfile quality="480p">
+        <Rate
+            min="500000"
+            max="1500000"
+            normStep="250000"
+            rapidStep="500000"
+            stepOffset="100000" />
+        <Filter
+            appliedToMin="500000" />
+    </ParameterProfile>
+
+    <ParameterProfile quality="240p">
+        <Rate
+            min="200000"
+            max="700000"
+            normStep="125000"
+            rapidStep="250000"
+            stepOffset="100000" />
+        <Filter
+            appliedToMin="200000" />
+    </ParameterProfile>
+
+</NetAdaptationSettings>
+

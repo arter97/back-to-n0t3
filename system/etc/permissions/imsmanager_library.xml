@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="imsmanager" file="/system/framework/imsmanager.jar"/>
+    <library name="imsmanager-internal" file="/system/framework/imsmanager-internal.jar"/>
+</permissions>
