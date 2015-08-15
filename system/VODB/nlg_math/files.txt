@@ -1,0 +1,4 @@
+math-ak.lite.res	bd6d76956a1f30152bff0783918e1157	1559621
+math-grm-maw.res	32bc99a91b08520753467da002ffe2df	5331
+math-grm-standard.res	9917a42bc913dbfb4b1625dd6e07703e	5051
+nlg_math.lang	a1884c5577381c8cb0d54b9ee752513c	283

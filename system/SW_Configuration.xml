@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-N920T</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>N920TTMB</CSCName>
+	<CSCVersion>2DOK5</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/TMB/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

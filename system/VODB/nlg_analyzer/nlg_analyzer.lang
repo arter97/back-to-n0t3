@@ -1,0 +1,9 @@
+Format-Version: 1.0
+Language-Name: nlg_analyzer
+Configuration-Script:
+ AddResDir .
+
+Name: analyzer
+Configuration-Script:
+ AddResource ank-standard.res
+ AddResource shk-analyzer.res

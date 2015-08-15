@@ -1,0 +1,8 @@
+Format-Version: 1.0
+Language-Name: nlg_shape
+Configuration-Script:
+ AddResDir .
+
+Name: shape
+Configuration-Script:
+ AddResource shk-standard.res

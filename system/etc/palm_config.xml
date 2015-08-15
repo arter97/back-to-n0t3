@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<palmmotion>
+    <palmconfigs deviceName="noblelte" 
+         thresholdPalmCount="3"
+         thresholdMajorTouch="100.0"
+         thresholdMajorSweepPortrait="65.0"
+         thresholdMajorSweepLandscape="50.0"
+         thresholdEccenSweepPortrait="2.0"
+         thresholdEccenSweepLandscape="2.0"
+        />
+</palmmotion>

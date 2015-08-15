@@ -1,0 +1,8 @@
+Format-Version: 1.0
+Language-Name: nlg_symbol
+Configuration-Script:
+ AddResDir .
+
+Name: symbol
+Configuration-Script:
+ AddResource ak.res

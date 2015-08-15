@@ -1,0 +1,3 @@
+<permissions>
+    <library name="com.sec.android.mdm.gearpolicymanager" file="/system/framework/sagearpolicymanager.jar"/>
+</permissions>

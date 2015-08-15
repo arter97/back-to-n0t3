@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feature for com.sec.feature.fingerprint_ui -->
+<permissions>
+    <feature name="com.sec.feature.fingerprint_ui" level="2"/>
+</permissions>
