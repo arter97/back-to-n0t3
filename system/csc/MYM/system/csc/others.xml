@@ -1,0 +1,29 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>THAILAND</Country>
+  <CountryISO>TH</CountryISO>
+  <SalesCode>MYM</SalesCode>
+  <FeatureSet>
+    <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Framework_EnableBidirection>TRUE</CscFeature_Framework_EnableBidirection>
+    <CscFeature_Framework_EnableThaiVietReshaping>TRUE</CscFeature_Framework_EnableThaiVietReshaping>
+    <CscFeature_SIP_EnablePreferredEnglishTypeAsUS>TRUE</CscFeature_SIP_EnablePreferredEnglishTypeAsUS>
+    <CscFeature_Sip_LangQwertyType4HwKey>HW_KEYBOARD_COUNTRY_TYPE_THAILAND</CscFeature_Sip_LangQwertyType4HwKey>
+    <CscFeature_Sip_EnableIndochinaLanguage>TRUE</CscFeature_Sip_EnableIndochinaLanguage>
+    <CscFeature_FMRadio_FrequencySpaceAs>50</CscFeature_FMRadio_FrequencySpaceAs>
+    <CscFeature_FMRadio_DefaultChannelAs>87.5</CscFeature_FMRadio_DefaultChannelAs>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+    <CscFeature_Web_EnableMenuConvertUnicodeToZawgyiFont>TRUE</CscFeature_Web_EnableMenuConvertUnicodeToZawgyiFont>
+    <CscFeature_Web_DisableMostVisitedHomepage>TRUE</CscFeature_Web_DisableMostVisitedHomepage>
+    <CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>
+    <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_SNote_AddOnFontConfig>SEA</CscFeature_SNote_AddOnFontConfig>
+    <CscFeature_Wifi_SetCountryInfo>TRUE</CscFeature_Wifi_SetCountryInfo>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Contact_IgnoreSpaceDuringSearch>TRUE</CscFeature_Contact_IgnoreSpaceDuringSearch>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+  </FeatureSet>
+</SamsungMobileFeauture>

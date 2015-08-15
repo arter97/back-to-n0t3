@@ -1,0 +1,32 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED002</Version>
+  <Country>PHILIPPINES</Country>
+  <CountryISO>PH</CountryISO>
+  <SalesCode>XTE</SalesCode>
+  <FeatureSet>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Framework_EnableBidirection>TRUE</CscFeature_Framework_EnableBidirection>
+    <CscFeature_Framework_EnableThaiVietReshaping>TRUE</CscFeature_Framework_EnableThaiVietReshaping>
+    <CscFeature_Sip_LangQwertyType4HwKey>HW_KEYBOARD_COUNTRY_TYPE_PHILIPPINE</CscFeature_Sip_LangQwertyType4HwKey>
+    <CscFeature_Setting_CustNetworkSelMenu4>OLB</CscFeature_Setting_CustNetworkSelMenu4>
+    <CscFeature_FMRadio_FrequencySpaceAs>100</CscFeature_FMRadio_FrequencySpaceAs>
+    <CscFeature_FMRadio_DefaultChannelAs>88.3</CscFeature_FMRadio_DefaultChannelAs>
+    <CscFeature_Web_SetUAProfile>http://wap.samsungmobile.com/uaprof/uaprof.rdf</CscFeature_Web_SetUAProfile>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>
+    <CscFeature_Web_DisableMostVisitedHomepage>TRUE</CscFeature_Web_DisableMostVisitedHomepage>
+    <CscFeature_Web_SetHomepageURL>http://wap.suncellular.com.ph</CscFeature_Web_SetHomepageURL>
+    <CscFeature_SNote_AddOnFontConfig>SEA</CscFeature_SNote_AddOnFontConfig>
+    <CscFeature_Framework_ConfigGlobalActionItem>PowerOff, DataModeToggle, AirplaneModeOn, Restart, Emergency</CscFeature_Framework_ConfigGlobalActionItem>
+    <CscFeature_Wifi_CountryCodeDefaultFromCsc>TRUE</CscFeature_Wifi_CountryCodeDefaultFromCsc>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_RIL_ConfigSTKNameLength>30</CscFeature_RIL_ConfigSTKNameLength>
+    <CscFeature_Framework_EnableDataModeToggle>TRUE<CscFeature_Framework_EnableDataModeToggle>
+    <CscFeature_Contact_IgnoreSpaceDuringSearch>TRUE</CscFeature_Contact_IgnoreSpaceDuringSearch>
+    <CscFeature_LockScreen_DisableStatusBarTransparent>TRUE<CscFeature_LockScreen_DisableStatusBarTransparent>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+	<CscFeature_RIL_IgnoreNitzNetworkName>TRUE</CscFeature_RIL_IgnoreNitzNetworkName>
+	<CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+  </FeatureSet>
+</SamsungMobileFeauture>

@@ -1,0 +1,3 @@
+id_ID-ak-cur.lite.res	439171995ad3446e4e47e17d0f10b7fe	484767
+id_ID.lang	1970eb82c0e2728e750dfb7a9cab9b66	4125
+id_ID-lk-text.lite.res	b93703be7e7447bb418070510e212d6e	5047942

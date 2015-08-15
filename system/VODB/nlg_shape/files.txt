@@ -1,0 +1,2 @@
+nlg_shape.lang	d2d518dd0d21df6e16eff2c573dcfa14	145
+shk-standard.res	fbb06330dd824eb54aeec216da6d71e2	1578

@@ -1,0 +1,3 @@
+ank-standard.res	beada7bd514da50c7c577a863ca75e00	94030
+nlg_analyzer.lang	65cce92c68165c14a45cedce32926d73	181
+shk-analyzer.res	3bfd33773ac60730068f9461b4e0fe48	1578

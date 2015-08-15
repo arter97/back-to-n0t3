@@ -1,0 +1,2 @@
+/system/app/QuaTangGalaxy/QuaTangGalaxy.apk
+/system/app/SamsungGalaxyGift_Preload_5.1.5_Prd_20150702_1342/SamsungGalaxyGift_Preload_5.1.5_Prd_20150702_1342.apk

@@ -1,0 +1,14 @@
+Format-Version: 1.0
+Language-Name: nlg_math
+Configuration-Script:
+ AddResDir .
+
+Name: math_sdk
+Configuration-Script:
+ AddResource math-ak.lite.res
+ AddResource math-grm-standard.res
+
+Name: math_widget
+Configuration-Script:
+ AddResource math-ak.lite.res
+ AddResource math-grm-maw.res

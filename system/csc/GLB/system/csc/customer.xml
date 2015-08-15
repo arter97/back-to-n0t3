@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>PHILIPPINES</Country>
+    <CountryISO>PH</CountryISO>
+    <Region>SEA</Region>
+    <SalesCode>GLB</SalesCode>
+    <NbNetworkInfo>2</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51502</MCCMNC>
+      <NetworkName>Globe Postpaid</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>51502</MCCMNC>
+      <NetworkName>Globe Prepaid</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>on</OneSIMLock>
+        <NbNetworkLock>1</NbNetworkLock>
+        <NetworkLock>51502</NetworkLock>
+      </Security>
+      <Network>
+        <NbMaxPDP>2</NbMaxPDP>
+        <MaxPDP>
+          <NetworkName>Globe Postpaid</NetworkName>
+          <MaxPDP2G>1</MaxPDP2G>
+        </MaxPDP>
+        <MaxPDP>
+          <NetworkName>Globe Prepaid</NetworkName>
+          <MaxPDP2G>1</MaxPDP2G>
+        </MaxPDP>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <NbSOSNumberNoSIM>2</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+        <NbRingTone>1</NbRingTone>
+        <RingTone src="/Customer/GLB/Ringtone/Globeringtone.mp3" default="true">
+          <Position>1</Position>
+          <FileType>MP3</FileType>
+        </RingTone>
+      </Sound>
+      <Phone>
+        <DefLanguage>english_philippines</DefLanguage>
+        <DefLanguageNoSIM>english_philippines</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <NbLockScreenBG>1</NbLockScreenBG>
+        <LockScreenBG src="/Customer/GLB/LockScreenImage/lockscreen_default_wallpaper.jpg" width="2560" height="1440" default="true">
+          <FileType>JPG</FileType>
+        </LockScreenBG>
+        <NbPowerOffAnim>1</NbPowerOffAnim>
+        <PowerOffAnim src="/Customer/GLB/PowerOffAnim/shutdown.qmg" width="2560" height="1440" default="true">
+          <FileType>QMG</FileType>
+        </PowerOffAnim>
+        <NbPowerOnAnim>1</NbPowerOnAnim>
+        <PowerOnAnim src="/Customer/GLB/PowerOnAnim/bootsamsung.qmg" width="2560" height="1440" default="true">
+          <FileType>QMG</FileType>
+        </PowerOnAnim>
+        <NbWallpaper>1</NbWallpaper>
+        <Wallpaper src="/Customer/GLB/Wallpaper/Globe_2560x2560_G925F.jpg" width="2560" height="1440" default="true">
+          <Position>1</Position>
+          <FileType>JPG</FileType>
+        </Wallpaper>
+      </Display>
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MaxRecipient>20</MaxRecipient>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>4</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Homepage</BookmarkName>
+        <URL>http://www.globe.com.ph</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Facebook</BookmarkName>
+        <URL>https://m.facebook.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>3</Index>
+        <BookmarkName>Yahoo</BookmarkName>
+        <URL>http://www.m.yahoo.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>4</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>2</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <ProfBrowser>myGlobe INET</ProfBrowser>
+        <ProfMMS>myGlobe MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <ProfBrowser>myGlobe Internet</ProfBrowser>
+        <ProfMMS>myGlobe MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>4</NbProfile>
+      <Profile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>myGlobe MMS</ProfileName>
+        <URL>http://192.40.100.22:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.177.42.214</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>myGlobe MMS</ProfileName>
+        <URL>http://192.40.100.22:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>203.177.42.214</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Postpaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>myGlobe Internet</ProfileName>
+        <URL>http://www.globe.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Globe Prepaid</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>myGlobe INET</ProfileName>
+        <URL>http://www.globe.com.ph</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>http.globe.com.ph</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

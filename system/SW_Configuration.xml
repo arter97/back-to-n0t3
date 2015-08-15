@@ -1,0 +1,22 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-N920C</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>N920COLB</CSCName>
+	<CSCVersion>1AOH2</CSCVersion>
+	<NbCustomer>11</NbCustomer>
+	<CustomerData src="/Customer/THL/customer.xml" />
+	<CustomerData src="/Customer/CAM/customer.xml" />
+	<CustomerData src="/Customer/XME/customer.xml" />
+	<CustomerData src="/Customer/XXV/customer.xml" />
+	<CustomerData src="/Customer/SMA/customer.xml" />
+	<CustomerData src="/Customer/GLB/customer.xml" />
+	<CustomerData src="/Customer/XTE/customer.xml" />
+	<CustomerData src="/Customer/XTC/customer.xml" />
+	<CustomerData src="/Customer/XSE/customer.xml" />
+	<CustomerData src="/Customer/XID/customer.xml" />
+	<CustomerData src="/Customer/MYM/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

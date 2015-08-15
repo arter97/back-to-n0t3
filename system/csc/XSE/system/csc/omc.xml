@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<ServiceData>
+        <GeneralConfiguration>
+                <Enable>true</Enable>
+        </GeneralConfiguration>
+        <Operator>
+                <Name>Telkomsel</Name>
+                <ResourceOverride>Telkomsel</ResourceOverride>
+                <Url><![CDATA[http://zonagratis.telkomsel.com/ZonaGratis.apk]]></Url>
+                <PermittedMccmnc>51010</PermittedMccmnc>
+        </Operator>
+</ServiceData>
