@@ -4,7 +4,7 @@ ui_print(" ");
 ui_print(" - formatting /system");
 unmount("/system");
 format("ext4", "EMMC", "/dev/block/platform/15570000.ufs/by-name/SYSTEM", "0", "/system");
-run_program("/sbin/mount", "/system");
+run_program("/sbin/mount", "/dev/block/platform/15570000.ufs/by-name/SYSTEM", "/system");
 show_progress(1.33, 120);
 ui_print(" - extracting ROM files");
 package_extract_dir("system", "/system");
