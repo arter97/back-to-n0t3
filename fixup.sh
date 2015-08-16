@@ -1,5 +1,7 @@
+#!/sbin/sh
 SYSTEMDIR=/system
 
+cd $SYSTEMDIR
 find . -exec touch {} \;
 
 mkdir -p $SYSTEMDIR/app/AdvSoundDetector2015/lib/arm64
