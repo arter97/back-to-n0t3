@@ -26,6 +26,8 @@ mkdir -p $SYSTEMDIR/priv-app/SHealth4_3/lib/arm64
 mkdir -p $SYSTEMDIR/priv-app/VirtualTourViewer_WQHD_lightTheme/lib/arm
 
 ln -s app_process64 $SYSTEMDIR/bin/app_process
+ln -s app_process64_xposed $SYSTEMDIR/bin/app_process64
+ln -s app_process32_xposed $SYSTEMDIR/bin/app_process32
 ln -s dalvikvm64 $SYSTEMDIR/bin/dalvikvm
 ln -s libGLESv2.so $SYSTEMDIR/lib64/libGLESv3.so
 ln -s libGLESv2.so $SYSTEMDIR/lib/libGLESv3.so

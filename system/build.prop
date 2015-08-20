@@ -184,3 +184,6 @@ dalvik.vm.stack-trace-file=/data/anr/traces.txt
 ro.build.aapt.config.prefer=xxxhdpi
 ro.build.version.sdl=2101
 wlan.wfd.hdcp=disable
+
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything

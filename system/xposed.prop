@@ -1,0 +1,4 @@
+version=71 (by arter97 based on wanam port / 20150818)
+arch=arm64
+minsdk=22
+maxsdk=22
