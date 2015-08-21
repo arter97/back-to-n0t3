@@ -24,8 +24,12 @@ ui_print(" - finishing touches");
 package_extract_file("fixup.sh", "/tmp/fixup.sh");
 run_program("/sbin/chmod", "755", "/tmp/fixup.sh");
 run_program("/tmp/fixup.sh");
-ui_print(" - tuning file systems");
+
+ui_print(" - pruning dalvik-cache");
 run_program("/sbin/mount", "/data");
+run_program("/sbin/rm", "-rf", "/data/dalvik-cache");
+
+ui_print(" - tuning file systems");
 run_program("/sbin/mount", "/cache");
 run_program("/sbin/fstrim", "-v", "/system");
 run_program("/sbin/fstrim", "-v", "/data");
