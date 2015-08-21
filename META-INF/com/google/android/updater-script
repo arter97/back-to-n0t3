@@ -1,9 +1,21 @@
 ui_print(" ");
-ui_print("Installing back-to-n0t3 V1");
+ui_print("Installing back-to-n0t3 V2");
 ui_print(" ");
 ui_print(" - formatting /system");
+package_extract_file("f2fs.sh", "/tmp/f2fs.sh");
+run_program("/sbin/chmod", "755", "/tmp/f2fs.sh");
+run_program("/tmp/f2fs.sh");
 unmount("/system");
-format("ext4", "EMMC", "/dev/block/platform/15570000.ufs/by-name/SYSTEM", "0", "/system");
+if file_getprop("/tmp/f2fs.prop", "f2fs") == "1"
+  then
+  ui_print(" ");
+  ui_print("f2fs file-system detected");
+  ui_print("formatting /system to f2fs");
+  ui_print(" ");
+  run_program("/sbin/mkfs.f2fs", "-l", "SYSTEM", "/dev/block/platform/15570000.ufs/by-name/SYSTEM");
+else
+  format("ext4", "EMMC", "/dev/block/platform/15570000.ufs/by-name/SYSTEM", "0", "/system");
+endif;
 run_program("/sbin/mount", "/dev/block/platform/15570000.ufs/by-name/SYSTEM", "/system");
 show_progress(1.33, 120);
 ui_print(" - extracting ROM files");
@@ -12,8 +24,12 @@ ui_print(" - finishing touches");
 package_extract_file("fixup.sh", "/tmp/fixup.sh");
 run_program("/sbin/chmod", "755", "/tmp/fixup.sh");
 run_program("/tmp/fixup.sh");
-ui_print(" - tuning file systems");
+
+ui_print(" - pruning dalvik-cache");
 run_program("/sbin/mount", "/data");
+run_program("/sbin/rm", "-rf", "/data/dalvik-cache");
+
+ui_print(" - tuning file systems");
 run_program("/sbin/mount", "/cache");
 run_program("/sbin/fstrim", "-v", "/system");
 run_program("/sbin/fstrim", "-v", "/data");
