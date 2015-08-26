@@ -111,7 +111,8 @@ sys.config.spcm_enable=true
 # ADDITIONAL_BUILD_PROPERTIES
 #
 ro.astcenc.astcsupport=0
-ro.config.tima=0
+ro.config.tima=1
+ro.config.timaversion=3.0
 ro.config.dmverity=true
 ro.config.rkp=true
 ro.config.kap_default_on=true
@@ -176,7 +177,7 @@ persist.sys.dalvik.vm.lib.2=libart.so
 ro.build.selinux=1
 dalvik.vm.isa.arm64.features=default
 dalvik.vm.isa.arm.features=div
-ro.config.knox=0
+ro.config.knox=v30
 ro.kernel.qemu=0
 dalvik.vm.dexopt-flags=m=y
 net.bt.name=Android
