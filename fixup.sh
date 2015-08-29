@@ -143,13 +143,13 @@ ln -s toolbox $SYSTEMDIR/bin/stop
 ln -s toolbox $SYSTEMDIR/bin/swapoff
 ln -s toolbox $SYSTEMDIR/bin/swapon
 ln -s toolbox $SYSTEMDIR/bin/sync
-ln -s toolbox $SYSTEMDIR/bin/top
 ln -s toolbox $SYSTEMDIR/bin/touch
 ln -s toolbox $SYSTEMDIR/bin/umount
 ln -s toolbox $SYSTEMDIR/bin/uptime
 ln -s toolbox $SYSTEMDIR/bin/vmstat
 ln -s toolbox $SYSTEMDIR/bin/watchprops
 ln -s toolbox $SYSTEMDIR/bin/wipe
+ln -s /system/xbin/busybox $SYSTEMDIR/bin/top
 ln -s /vendor/lib64/egl/libGLES_mali.so $SYSTEMDIR/vendor/lib64/libOpenCL.so.1.1
 ln -s /vendor/lib/egl/libGLES_mali.so $SYSTEMDIR/vendor/lib/libOpenCL.so.1.1
 
