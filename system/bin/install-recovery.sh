@@ -1,6 +1,6 @@
 #!/system/bin/sh
-if ! applypatch -c EMMC:/dev/block/platform/15570000.ufs/by-name/RECOVERY:26908672:5349bc9d1963a2a9b8327d684d8d43215c44d416; then
-  applypatch EMMC:/dev/block/platform/15570000.ufs/by-name/BOOT:25999360:a0a5875766cf20aa6c3b669b496e0736b539cf51 EMMC:/dev/block/platform/15570000.ufs/by-name/RECOVERY 5349bc9d1963a2a9b8327d684d8d43215c44d416 26908672 a0a5875766cf20aa6c3b669b496e0736b539cf51:/system/recovery-from-boot.p && log -t recovery "Installing new recovery image: succeeded" || log -t recovery "Installing new recovery image: failed"
+if ! applypatch -c EMMC:/dev/block/platform/15570000.ufs/by-name/RECOVERY:26908672:da7ebe620a9d3e16f74e44c5ad52328d00da8bad; then
+  applypatch EMMC:/dev/block/platform/15570000.ufs/by-name/BOOT:25999360:2e1f30a6f7cccef1e74c1bae118bc24cd61a9769 EMMC:/dev/block/platform/15570000.ufs/by-name/RECOVERY da7ebe620a9d3e16f74e44c5ad52328d00da8bad 26908672 2e1f30a6f7cccef1e74c1bae118bc24cd61a9769:/system/recovery-from-boot.p && log -t recovery "Installing new recovery image: succeeded" || log -t recovery "Installing new recovery image: failed"
 else
   log -t recovery "Recovery image already installed"
 fi
