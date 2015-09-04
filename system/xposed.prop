@@ -1,4 +1,4 @@
-version=71 (by arter97 based on wanam port / 20150830)
+version=73 (by arter97 based on wanam port / 20150905)
 arch=arm64
 minsdk=22
 maxsdk=22
