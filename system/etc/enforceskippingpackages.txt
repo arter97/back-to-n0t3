@@ -1,0 +1,12 @@
+11
+SamsungPay.apk
+FBAppManager.apk
+FBInstaller.apk
+FBInstagram_stub.apk
+FBMessenger_stub.apk
+Facebook_stub.apk
+WhatsAppDownloader.apk
+ImsTelephonyService.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk

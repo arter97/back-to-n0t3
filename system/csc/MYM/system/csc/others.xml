@@ -1,4 +1,4 @@
-﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeauture>
   <Version>ED001</Version>
   <Country>THAILAND</Country>
@@ -25,5 +25,7 @@
     <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
     <CscFeature_Contact_IgnoreSpaceDuringSearch>TRUE</CscFeature_Contact_IgnoreSpaceDuringSearch>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
   </FeatureSet>
 </SamsungMobileFeauture>
