@@ -1,4 +1,4 @@
-﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<?xml  version="1.0" encoding="UTF-8" ?>
 <SamsungMobileFeauture>
   <Version>ED001</Version>
   <Country>VIETNAM</Country>
@@ -25,5 +25,7 @@
     <CscFeature_Calendar_EnableLocalHolidayDisplay>VI</CscFeature_Calendar_EnableLocalHolidayDisplay>
     <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
     <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
   </FeatureSet>
 </SamsungMobileFeauture>

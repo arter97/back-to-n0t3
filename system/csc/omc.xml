@@ -1,0 +1,16 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<ServiceData>
+        <GeneralConfiguration>
+                <Enable>true</Enable>
+                <ShowTestApp>false</ShowTestApp>
+        </GeneralConfiguration>
+        <Operator>
+                <Name>VODA</Name>
+                <Url><![CDATA[http://updates.vodafone.com/Appdl/?App=38&mcc=%s&mnc=%s&errorRedirect=false]]></Url>
+                <PermittedMccmnc>27201</PermittedMccmnc>
+                <Signature>15134792569865480918</Signature> 
+                <PermittedSpn>empty,(?i)VODA.*</PermittedSpn>
+                <ShowDataWarningList>0</ShowDataWarningList>
+                <MinLimitFileSize>1048576</MinLimitFileSize>
+        </Operator>
+</ServiceData>

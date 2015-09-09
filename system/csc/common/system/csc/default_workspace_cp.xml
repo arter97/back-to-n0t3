@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:pagebuddynotisvc="http://schemas.android.com/apk/res/com.sec.android.pagebuddynotisvc">
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    
+    <hotseat>
+        <!-- S Pen -->
+        <favorite
+            pagebuddynotisvc:packageName="com.samsung.android.snote"
+            pagebuddynotisvc:className="com.samsung.android.snote.control.ui.filemanager.MainHomeActivity"
+            pagebuddynotisvc:screen="1"
+            pagebuddynotisvc:x="0" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.gallery3d"
+            pagebuddynotisvc:className="com.sec.android.gallery3d.app.Gallery"
+            pagebuddynotisvc:screen="1"
+            pagebuddynotisvc:x="1" />
+        <favorite
+            pagebuddynotisvc:packageName="com.android.email"
+            pagebuddynotisvc:className="com.android.email.activity.Welcome"
+            pagebuddynotisvc:screen="1"
+            pagebuddynotisvc:x="2" />
+        <favorite
+            pagebuddynotisvc:packageName="com.android.calendar"
+            pagebuddynotisvc:className="com.android.calendar.AllInOneActivity"
+            pagebuddynotisvc:screen="1"
+            pagebuddynotisvc:x="3" />
+        <favorite
+            pagebuddynotisvc:packageName="com.android.mms"
+            pagebuddynotisvc:className="com.android.mms.ui.ConversationComposer"
+            pagebuddynotisvc:screen="1"
+            pagebuddynotisvc:x="4" />
+
+        <!-- EarPhone -->
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.app.music"
+            pagebuddynotisvc:className="com.samsung.musicplus.MusicMainActivity"
+            pagebuddynotisvc:screen="2"
+            pagebuddynotisvc:x="0" />
+        <favorite
+            pagebuddynotisvc:packageName="com.samsung.everglades.video"
+            pagebuddynotisvc:className="com.samsung.everglades.video.VideoMain"
+            pagebuddynotisvc:screen="2"
+            pagebuddynotisvc:x="1" />
+        <favorite
+            pagebuddynotisvc:packageName="com.android.contacts"
+            pagebuddynotisvc:className="com.android.contacts.activities.PeopleActivity"
+            pagebuddynotisvc:screen="2"
+            pagebuddynotisvc:x="2" />
+        <favorite
+            pagebuddynotisvc:packageName="com.google.android.youtube"
+            pagebuddynotisvc:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+            pagebuddynotisvc:screen="2"
+            pagebuddynotisvc:x="3" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.app.voicenote"
+            pagebuddynotisvc:className="com.sec.android.app.voicenote.main.VNMainActivity"
+            pagebuddynotisvc:screen="2"
+            pagebuddynotisvc:x="4" />
+    
+        <!-- Dock -->
+        <favorite
+            pagebuddynotisvc:packageName="com.android.email"
+            pagebuddynotisvc:className="com.android.email.activity.Welcome"
+            pagebuddynotisvc:screen="3"
+            pagebuddynotisvc:x="0" />
+        <favorite
+            pagebuddynotisvc:packageName="com.samsung.everglades.video"
+            pagebuddynotisvc:className="com.samsung.everglades.video.VideoMain"
+            pagebuddynotisvc:screen="3"
+            pagebuddynotisvc:x="1" />
+        <favorite
+            pagebuddynotisvc:packageName="com.android.calendar"
+            pagebuddynotisvc:className="com.android.calendar.AllInOneActivity"
+            pagebuddynotisvc:screen="3"
+            pagebuddynotisvc:x="2" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.app.sbrowser"
+            pagebuddynotisvc:className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            pagebuddynotisvc:screen="3"
+            pagebuddynotisvc:x="3" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.gallery3d"
+            pagebuddynotisvc:className="com.sec.android.gallery3d.app.Gallery"
+            pagebuddynotisvc:screen="3"
+            pagebuddynotisvc:x="4" />
+        
+        <!-- Roaming -->
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.app.camera"
+            pagebuddynotisvc:className="com.sec.android.app.camera.Camera"
+            pagebuddynotisvc:screen="4"
+            pagebuddynotisvc:x="0" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.app.popupcalculator"
+            pagebuddynotisvc:className="com.sec.android.app.popupcalculator.Calculator"
+            pagebuddynotisvc:screen="4"
+            pagebuddynotisvc:x="1" />
+        <favorite
+            pagebuddynotisvc:packageName="com.google.android.apps.maps"
+            pagebuddynotisvc:className="com.google.android.maps.MapsActivity"
+            pagebuddynotisvc:screen="4"
+            pagebuddynotisvc:x="2" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.widgetapp.diotek.smemo"
+            pagebuddynotisvc:className="com.sec.android.widgetapp.q1_penmemo.MemoListActivity"
+            pagebuddynotisvc:screen="4"
+            pagebuddynotisvc:x="3" />
+        <favorite
+            pagebuddynotisvc:packageName="com.sec.android.app.clockpackage"
+            pagebuddynotisvc:className="com.sec.android.app.clockpackage.alarm.Alarm"
+            pagebuddynotisvc:screen="4"
+            pagebuddynotisvc:x="4" />    
+        
+    </hotseat>
+</favorites>
