@@ -1,2 +1,2 @@
 #!/system/bin/sh
-/system/bin/dex2oat.local $(echo "$@" | busybox sed -e 's@--compiler-filter=verify-none@@g' -e 's@--compiler-filter=interpret-only@@g' -e 's@--compiler-filter=space@@g' -e 's@--compiler-filter=balanced@@g' -e 's@--compiler-filter=speed@@g' -e 's@--compiler-filter=everything@@g' -e 's@--compress-image@@g' ) --compiler-filter=everything
+/system/bin/dex2oat.local $(echo "$@" | busybox sed -e 's@--compiler-filter=verify-none@@g' -e 's@--compiler-filter=interpret-only@@g' -e 's@--compiler-filter=space@@g' -e 's@--compiler-filter=balanced@@g' -e 's@--compiler-filter=speed@@g' -e 's@--compiler-filter=everything@@g' -e 's@--compress-image@@g' ) --compiler-filter=everything -j4
