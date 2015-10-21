@@ -1381,17 +1381,20 @@
 			<package name="com.sec.knox.bridge" seinfo="platform" />
 			<package name="com.samsung.knox.rcp.components" seinfo="platform" />
 			<package name="com.sec.knox.containeragent" seinfo="platform" />
+			<package name="com.sec.knox.containeragent2" seinfo="platform" />
 			<package name="com.sec.knox.foldercontainer" seinfo="platform" />
 			<package name="com.sec.knox.bluetooth" seinfo="platform" />
 			<package name="com.sec.knoxcts" seinfo="platform" />
 			<package name="com.android.packageinstaller" seinfo="platform" />
+			<package name="com.sec.knoxcts.pal.service" seinfo="platform" />
 		</method>
 
 		<method name="moveFile">
 			<package name="com.sec.knox.bridge" seinfo="platform" />
 			<package name="com.samsung.knox.rcp.components" seinfo="platform" />
 			<package name="com.sec.knox.containeragent" seinfo="platform" />
-            <package name="com.sec.knoxcts" seinfo="platform" />
+            		<package name="com.sec.knoxcts" seinfo="platform" />
+			<package name="com.sec.knoxcts.pal.service" seinfo="platform" />
 		</method>
 
 		<method name="isFileExist">

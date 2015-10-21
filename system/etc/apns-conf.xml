@@ -20,7 +20,7 @@
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
 <apns version="8">
-  <apn carrier="Cosmote Wireless Internet"
+  <apn carrier="Cosmote Internet"
       mcc="202"
       mnc="01"
       apn="internet"
