@@ -221,7 +221,7 @@ examples:
 
 <!-- Philippine -->
     <spnOverride numeric="51518" spn_display_rule="SPN_RULE_SHOW_SPN" spn_override_only_on="51503"/>  <!--red mobile -->
-    <spnOverride numeric="51505" spn_display_rule="SPN_RULE_SHOW_SPN" spn="SUN" spn_override_only_on="51503,51505"/>  <!--Sun Cellular -->
+    <spnOverride numeric="51505" spn_display_rule="SPN_RULE_SHOW_SPN" spn="Sun" spn_override_only_on="51503"/>  <!--Sun Cellular -->
     <spnOverride numeric="515034" spn_display_rule="SPN_RULE_SHOW_SPN" spn="SUN" spn_override_only_on="51503,515034"/>  <!--Sun Bruno -->
     <spnOverride numeric="515035" spn_display_rule="SPN_RULE_SHOW_SPN" spn="SUN" spn_override_only_on="51503,515035"/>  <!--Sun Bruno -->
     <spnOverride numeric="515036" spn_display_rule="SPN_RULE_SHOW_SPN" spn="SUN" spn_override_only_on="51503,515036"/>  <!--Sun Bruno -->
