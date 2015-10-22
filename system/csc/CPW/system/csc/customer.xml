@@ -99,12 +99,12 @@
       <MCCMNC>00101</MCCMNC>
       <NetworkName>GCFTest</NetworkName>
       <SPName>GCFTest</SPName>
-    </NetworkInfo>            
+    </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>45001</MCCMNC>
       <NetworkName>TestBed</NetworkName>
       <SPName>TestBed</SPName>
-    </NetworkInfo>            
+    </NetworkInfo>
   </GeneralInfo>
   <Settings>
     <Main>
@@ -337,7 +337,7 @@
         <Index>7</Index>
         <BookmarkName>Yahoo!</BookmarkName>
         <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
-      </Bookmark>      
+      </Bookmark>
       <eManual>
         <URL>http://www.samsung.com/m-manual/common</URL>
       </eManual>
@@ -1363,6 +1363,6 @@
           <USSD_Domain_Preference>cs</USSD_Domain_Preference>
         </VoLTE>
       </Setting>
-    </IMSSetting>      
+    </IMSSetting>
   </Settings>
 </CustomerData>

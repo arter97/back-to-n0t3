@@ -1,1 +1,33 @@
-<?xml  version="1.0" encoding="UTF-8" ?><SamsungMobileFeauture>  <Version>ED001</Version>  <Country>INDONESIA</Country>  <CountryISO>ID</CountryISO>  <SalesCode>XSE</SalesCode>  <FeatureSet>    <CscFeature_Framework_EnableThaiVietReshaping>TRUE</CscFeature_Framework_EnableThaiVietReshaping>    <CscFeature_Sip_LangQwertyType4HwKey>HW_KEYBOARD_COUNTRY_TYPE_INDONESIA</CscFeature_Sip_LangQwertyType4HwKey>    <CscFeature_Contact_ExportToSimPhoneAccountOnly>FALSE</CscFeature_Contact_ExportToSimPhoneAccountOnly>    <CscFeature_VoiceCall_KeypadTypeToDigit4UssdInput>FALSE</CscFeature_VoiceCall_KeypadTypeToDigit4UssdInput>    <CscFeature_FMRadio_FrequencySpaceAs>100</CscFeature_FMRadio_FrequencySpaceAs>    <CscFeature_FMRadio_DefaultChannelAs>87.5</CscFeature_FMRadio_DefaultChannelAs>    <CscFeature_FMRadio_DefaultSoftMuteValue>Off</CscFeature_FMRadio_DefaultSoftMuteValue>    <CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>    <CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>    <CscFeature_Framework_EnableBidirection>TRUE</CscFeature_Framework_EnableBidirection>    <CscFeature_Message_ReplaceCRToNewLine>TRUE</CscFeature_Message_ReplaceCRToNewLine>    <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>    <CscFeature_Web_DisableMostVisitedHomepage>TRUE</CscFeature_Web_DisableMostVisitedHomepage>    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>    <CscFeature_Wifi_CountryCodeDefaultFromCsc>TRUE</CscFeature_Wifi_CountryCodeDefaultFromCsc>    <CscFeature_Dialer_SearchByNameIgnoreSpace>TRUE</CscFeature_Dialer_SearchByNameIgnoreSpace>    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>    <CscFeature_RIL_ConfigPsOnlyList>51009,51028,51068,51088</CscFeature_RIL_ConfigPsOnlyList>    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>    <CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>  </FeatureSet></SamsungMobileFeauture>
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>INDONESIA</Country>
+  <CountryISO>ID</CountryISO>
+  <SalesCode>XSE</SalesCode>
+  <FeatureSet>
+    <CscFeature_Framework_EnableThaiVietReshaping>TRUE</CscFeature_Framework_EnableThaiVietReshaping>
+    <CscFeature_Sip_LangQwertyType4HwKey>HW_KEYBOARD_COUNTRY_TYPE_INDONESIA</CscFeature_Sip_LangQwertyType4HwKey>
+    <CscFeature_Contact_ExportToSimPhoneAccountOnly>FALSE</CscFeature_Contact_ExportToSimPhoneAccountOnly>
+    <CscFeature_VoiceCall_KeypadTypeToDigit4UssdInput>FALSE</CscFeature_VoiceCall_KeypadTypeToDigit4UssdInput>
+    <CscFeature_FMRadio_FrequencySpaceAs>100</CscFeature_FMRadio_FrequencySpaceAs>
+    <CscFeature_FMRadio_DefaultChannelAs>87.5</CscFeature_FMRadio_DefaultChannelAs>
+    <CscFeature_FMRadio_DefaultSoftMuteValue>Off</CscFeature_FMRadio_DefaultSoftMuteValue>
+    <CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>
+    <CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Framework_EnableBidirection>TRUE</CscFeature_Framework_EnableBidirection>
+    <CscFeature_Message_ReplaceCRToNewLine>TRUE</CscFeature_Message_ReplaceCRToNewLine>
+    <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
+    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_Web_DisableMostVisitedHomepage>TRUE</CscFeature_Web_DisableMostVisitedHomepage>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Wifi_CountryCodeDefaultFromCsc>TRUE</CscFeature_Wifi_CountryCodeDefaultFromCsc>
+    <CscFeature_Dialer_SearchByNameIgnoreSpace>TRUE</CscFeature_Dialer_SearchByNameIgnoreSpace>
+    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+    <CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
+    <CscFeature_RIL_ConfigPsOnlyList>51009,51028,51068,51088</CscFeature_RIL_ConfigPsOnlyList>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart</CscFeature_SmartManager_ConfigSubFeatures>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
+  </FeatureSet>
+</SamsungMobileFeauture>

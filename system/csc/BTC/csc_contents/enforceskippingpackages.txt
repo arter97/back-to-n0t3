@@ -1,0 +1,10 @@
+9
+SamsungPay.apk
+Excel_SamsungStub.apk
+PowerPoint_SamsungStub.apk
+Word_SamsungStub.apk
+OneNote.apk
+ImsTelephonyService.apk
+imsservice.apk
+ImsSettings.apk
+ImsLogger+.apk

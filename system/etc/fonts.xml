@@ -239,13 +239,10 @@
         <font weight="400" style="normal">NotoSansSinhala-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansSinhala-Bold.ttf</font>
     </family>
-    <family variant="elegant">
-        <font weight="400" style="normal">NotoSansKhmer-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansKhmer-Bold.ttf</font>
-    </family>
-    <family variant="compact">
-        <font weight="400" style="normal">NotoSansKhmerUI-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansKhmerUI-Bold.ttf</font>
+    <!-- Change NotoSansKhmer to SamsungKhmer, becuase font style issue -->
+    <family>
+        <font weight="400" style="normal">SamsungKhmer-Regular.ttf</font>
+        <font weight="700" style="normal">SamsungKhmer-Bold.ttf</font>
     </family>
     <family variant="elegant">
         <font weight="400" style="normal">NotoSansLao-Regular.ttf</font>
@@ -255,13 +252,14 @@
         <font weight="400" style="normal">NotoSansLaoUI-Regular.ttf</font>
         <font weight="700" style="normal">NotoSansLaoUI-Bold.ttf</font>
     </family>
-    <family variant="elegant">
-        <font weight="400" style="normal">NotoSansMyanmar-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansMyanmar-Bold.ttf</font>
+    <!-- Change NotoSansMyanmar to SamsungMyanmar, becuase font style issue -->
+    <family>
+        <font weight="400" style="normal">SamsungMyanmar.ttf</font>
     </family>
-    <family variant="compact">
-        <font weight="400" style="normal">NotoSansMyanmarUI-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSansMyanmarUI-Bold.ttf</font>
+    <!-- Add Mynmar Zawgyi type fonts -->
+    <family>
+        <font weight="400" style="normal">NotoSansMyanmarZawgyi-Regular.ttf</font>
+        <font weight="700" style="normal">NotoSansMyanmarZawgyi-Bold.ttf</font>
     </family>
     <family>
         <font weight="400" style="normal">NotoSansThaana-Regular.ttf</font>

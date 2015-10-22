@@ -41,8 +41,17 @@
         <MmsReceiving>
           <Home>auto</Home>
           <Roaming>manual</Roaming>
-        </MmsReceiving>        <NbMMSView>1</NbMMSView>        <MMSView>
-          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>        </MMSView>      </MMS>      <Email>      	  <Combinded>0</Combinded>      </Email>
+        </MmsReceiving>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+
+      <Email>
+      	  <Combinded>0</Combinded>
+      </Email>
     </Messages>
   </Settings>
 </CustomerData>
