@@ -17,7 +17,7 @@
 <favorites xmlns:pagebuddynotisvc="http://schemas.android.com/apk/res/com.sec.android.pagebuddynotisvc">
 
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
-    
+
     <hotseat>
         <!-- S Pen -->
         <favorite
@@ -72,7 +72,7 @@
             pagebuddynotisvc:className="com.sec.android.app.voicenote.main.VNMainActivity"
             pagebuddynotisvc:screen="2"
             pagebuddynotisvc:x="4" />
-    
+
         <!-- Dock -->
         <favorite
             pagebuddynotisvc:packageName="com.android.email"
@@ -99,7 +99,7 @@
             pagebuddynotisvc:className="com.sec.android.gallery3d.app.Gallery"
             pagebuddynotisvc:screen="3"
             pagebuddynotisvc:x="4" />
-        
+
         <!-- Roaming -->
         <favorite
             pagebuddynotisvc:packageName="com.sec.android.app.camera"
@@ -125,7 +125,7 @@
             pagebuddynotisvc:packageName="com.sec.android.app.clockpackage"
             pagebuddynotisvc:className="com.sec.android.app.clockpackage.alarm.Alarm"
             pagebuddynotisvc:screen="4"
-            pagebuddynotisvc:x="4" />    
-        
+            pagebuddynotisvc:x="4" />
+
     </hotseat>
 </favorites>

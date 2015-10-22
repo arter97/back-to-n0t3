@@ -4,26 +4,40 @@
 	<PublicName>SM-N920C</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>N920COLB</CSCName>
-	<CSCVersion>1AOI1</CSCVersion>
-	<NbCustomer>20</NbCustomer>
+	<CSCName>N920COJP</CSCName>
+	<CSCVersion>2AOJ5</CSCVersion>
+	<NbCustomer>34</NbCustomer>
+	<CustomerData src="/Customer/AFG/customer.xml" />
+	<CustomerData src="/Customer/BTC/customer.xml" />
 	<CustomerData src="/Customer/BTU/customer.xml" />
 	<CustomerData src="/Customer/CAM/customer.xml" />
 	<CustomerData src="/Customer/CPW/customer.xml" />
 	<CustomerData src="/Customer/DBT/customer.xml" />
+	<CustomerData src="/Customer/EGY/customer.xml" />
 	<CustomerData src="/Customer/GLB/customer.xml" />
 	<CustomerData src="/Customer/ITV/customer.xml" />
 	<CustomerData src="/Customer/KOR/customer.xml" />
+	<CustomerData src="/Customer/KSA/customer.xml" />
+	<CustomerData src="/Customer/LYS/customer.xml" />
+	<CustomerData src="/Customer/MAT/customer.xml" />
+	<CustomerData src="/Customer/MID/customer.xml" />
+	<CustomerData src="/Customer/MWD/customer.xml" />
 	<CustomerData src="/Customer/MYM/customer.xml" />
 	<CustomerData src="/Customer/NEE/customer.xml" />
+	<CustomerData src="/Customer/PAK/customer.xml" />
 	<CustomerData src="/Customer/SMA/customer.xml" />
 	<CustomerData src="/Customer/THL/customer.xml" />
+	<CustomerData src="/Customer/THR/customer.xml" />
+	<CustomerData src="/Customer/TMC/customer.xml" />
+	<CustomerData src="/Customer/TUN/customer.xml" />
+	<CustomerData src="/Customer/WTL/customer.xml" />
 	<CustomerData src="/Customer/XEF/customer.xml" />
 	<CustomerData src="/Customer/XEO/customer.xml" />
 	<CustomerData src="/Customer/XEU/customer.xml" />
 	<CustomerData src="/Customer/XID/customer.xml" />
 	<CustomerData src="/Customer/XME/customer.xml" />
 	<CustomerData src="/Customer/XSE/customer.xml" />
+	<CustomerData src="/Customer/XSG/customer.xml" />
 	<CustomerData src="/Customer/XTC/customer.xml" />
 	<CustomerData src="/Customer/XTE/customer.xml" />
 	<CustomerData src="/Customer/XXV/customer.xml" />

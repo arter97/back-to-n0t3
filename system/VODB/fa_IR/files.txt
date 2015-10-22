@@ -1,0 +1,3 @@
+fa_IR-ak-cur.lite.res	1ad5e4af2a4e8c3f49a09c244fb4c5aa	895063
+fa_IR.lang	867623f004ff221f343d63930054f6f7	4277
+fa_IR-lk-text.lite.res	479ee479e734d05f0ada6d90fa5f6644	3698928

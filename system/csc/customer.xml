@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomerData>
   <GeneralInfo>
-    <CSCEdition>ED0005</CSCEdition>
+    <CSCEdition>ED0008</CSCEdition>
     <Country>UK &amp; IRE</Country>
     <CountryISO>GB</CountryISO>
     <Region>EUR</Region>
     <SalesCode>BTU</SalesCode>
-    <NbNetworkInfo>30</NbNetworkInfo>
+    <NbNetworkInfo>31</NbNetworkInfo>
     <NetworkInfo>
       <MCCMNC>23410</MCCMNC>
       <NetworkName>O2 UK Pay Monthly</NetworkName>
@@ -54,6 +54,11 @@
     <NetworkInfo>
       <MCCMNC>23420</MCCMNC>
       <NetworkName>H3G</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>23420</MCCMNC>
+      <NetworkName>iD</NetworkName>
+      <SubsetCode>0305</SubsetCode>
     </NetworkInfo>
     <NetworkInfo>
       <MCCMNC>23415</MCCMNC>
@@ -204,27 +209,16 @@
           <NetworkName>default</NetworkName>
           <WbAmrCodec>on</WbAmrCodec>
         </WbAmr>
-        <AutoProfile>on</AutoProfile>
-        <AutoVoicemail>on</AutoVoicemail>
-        <AutoEmailAccount>on</AutoEmailAccount>
-        <AutoBookmark>off</AutoBookmark>
-        <AutoLink>off</AutoLink>
-        <AutoSyncML>off</AutoSyncML>
-        <AutoFastDormancy>off</AutoFastDormancy>
-        <AutoWbAmr>off</AutoWbAmr>
-        <AutoFOTA>off</AutoFOTA>
       </Network>
       <Sound>
         <ExtraSound>
           <ConnectTone>on</ConnectTone>
-          <MinuteMind>off</MinuteMind>
         </ExtraSound>
       </Sound>
       <Phone>
         <DefLanguage>en_GB</DefLanguage>
         <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
         <DateTimeFormat>
-          <DateFormat>ddmmyyyy</DateFormat>
           <TimeFormat>24h</TimeFormat>
         </DateTimeFormat>
         <SmartStay>on</SmartStay>
@@ -269,7 +263,6 @@
       <Email>
         <EmailReceiving>
           <AutoPoll>off</AutoPoll>
-          <KeepServer>on</KeepServer>
         </EmailReceiving>
         <NbAccount>5</NbAccount>
         <Account>
@@ -387,7 +380,7 @@
       </eManual>
     </Browser>
     <Connections>
-      <NbProfileHandle>28</NbProfileHandle>
+      <NbProfileHandle>29</NbProfileHandle>
       <ProfileHandle>
         <NbNetProfile>2</NbNetProfile>
         <NetworkName>Vodafone Contract</NetworkName>
@@ -558,7 +551,13 @@
         <ProfBrowser>internet</ProfBrowser>
         <ProfMMS>mms</ProfMMS>
       </ProfileHandle>
-      <NbProfile>57</NbProfile>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>iD</NetworkName>
+        <ProfBrowser>iD Internet</ProfBrowser>
+        <ProfMMS>iD MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>61</NbProfile>
       <Profile>
         <NetworkName>Vodafone Contract</NetworkName>
         <Editable>no</Editable>
@@ -826,6 +825,12 @@
           <APN>giffgaff.com</APN>
           <UserId>giffgaff</UserId>
         </PSparam>
+      </Profile>
+      <Profile>
+        <MTUSize>1500</MTUSize>
+      </Profile>
+      <Profile>
+        <MTUSize>1500</MTUSize>
       </Profile>
       <Profile>
         <NetworkName>EE</NetworkName>
@@ -1494,6 +1499,38 @@
           <APN>mms</APN>
           <UserId>mms</UserId>
           <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iD</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>iD Internet</ProfileName>
+        <URL>http://www.google.co.uk</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>id</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>iD</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>iD MMS</ProfileName>
+        <URL>http://mms.um.idmobile.co.uk:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>mms.idmobile.co.uk</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>id</APN>
         </PSparam>
       </Profile>
     </Connections>

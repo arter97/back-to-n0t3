@@ -117,9 +117,9 @@
                 launcher:className="com.google.android.talk.SigningInActivity"
                 launcher:screen="13" />
             <!--Photos-->
-            <favorite 
-                launcher:packageName="com.google.android.apps.photos" 
-                launcher:className="com.google.android.apps.photos.home.HomeActivity" 
+            <favorite
+                launcher:packageName="com.google.android.apps.photos"
+                launcher:className="com.google.android.apps.photos.home.HomeActivity"
                 launcher:screen="14" />
         </folder>
 

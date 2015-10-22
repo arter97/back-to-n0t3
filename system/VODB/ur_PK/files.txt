@@ -1,0 +1,3 @@
+ur_PK-ak-cur.lite.res	348268812308fed3c4b0e387aa15d2be	740035
+ur_PK.lang	c45c87e8edda1cb5c4f9890f299cca1d	4277
+ur_PK-lk-text.lite.res	0f38d751c76e4ec675b0708a12c64bba	3436668

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>TUNISIA</Country>
+    <CountryISO>TN</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>TUN</SalesCode>
+    <NbNetworkInfo>3</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60502</MCCMNC>
+      <NetworkName>TUNISIE TELECOM</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60503</MCCMNC>
+      <NetworkName>Ooredoo TN</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>60501</MCCMNC>
+      <NetworkName>Orange</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Network>
+        <NbFastDormancy>3</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>TUNISIE TELECOM</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Ooredoo TN</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>Orange</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>on</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>fr_FR</DefLanguage>
+        <DefLanguageNoSIM>fr_FR</DefLanguageNoSIM>
+        <T9Language>french</T9Language>
+      </Phone>
+    </Main>
+    <Messages>
+      <MMS>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>SAMSUNG-ANDROID-MMS/uaprof</MessageUserAgent>
+          <MessageUaProfUrl>http://wap.samsungmobile.com/uaprof/uaprof.rdf</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <Index>1</Index>
+        <BookmarkName>Samsung Apps Web</BookmarkName>
+        <URL>http://www.samsungapps.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Yahoo!</BookmarkName>
+        <URL>https://yahoo.com/?.tsrc=samsungbm</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Ooredoo TN</NetworkName>
+        <ProfBrowser>Ooredoo TN internet</ProfBrowser>
+        <ProfMMS>Ooredoo TN MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>TUNISIE TELECOM</NetworkName>
+        <ProfBrowser>TUNTEL Internet</ProfBrowser>
+        <ProfMMS>MMS TUNTEL</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Orange</NetworkName>
+        <ProfBrowser>weborange</ProfBrowser>
+        <ProfMMS>Orange MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>6</NbProfile>
+      <Profile>
+        <NetworkName>TUNISIE TELECOM</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>MMS TUNTEL</ProfileName>
+        <URL>http://192.168.0.3:19090/was</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.0.2</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.tn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TUNISIE TELECOM</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>TUNTEL Internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.tn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ooredoo TN</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Ooredoo TN MMS</ProfileName>
+        <URL>http://mmsc.ooredoo.tn</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.3.2.100</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.ooredoo.tn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Ooredoo TN</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Ooredoo TN internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet.ooredoo.tn</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>Orange MMS</ProfileName>
+        <URL>http://mms.orange.tn</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.12.1.52</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.otun</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>weborange</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>weborange</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>
