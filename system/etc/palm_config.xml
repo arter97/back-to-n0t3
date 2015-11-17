@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <palmmotion>
-    <palmconfigs deviceName="noblelte" 
+    <palmconfigs deviceName="zeroflte" 
          thresholdPalmCount="3"
-         thresholdMajorTouch="100.0"
-         thresholdMajorSweepPortrait="65.0"
-         thresholdMajorSweepLandscape="50.0"
-         thresholdEccenSweepPortrait="2.0"
-         thresholdEccenSweepLandscape="2.0"
+         thresholdMajorTouch="30.0"
+         thresholdMajorSweepPortrait="25.0"
+         thresholdMajorSweepLandscape="25.0"
+         thresholdEccenSweepPortrait="2.2"
+         thresholdEccenSweepLandscape="1.8"
+         ignoreCheckMajorSweepEntry="true"
         />
 </palmmotion>

@@ -1,3 +1,4 @@
+#version=001
 #=====================================================================
 #
 #   :: Bluetooth IOP Database
@@ -77,8 +78,7 @@ EnforceMasterRole KEY_BDADDR="00:50:f2:*" KEY_DIR_ALL="0"
 #EnforceMasterRole KEY_BDADDR="00:13:17:*" KEY_LMP_MFCT="10" KEY_LMP_VER="2:2361" KEY_DIR_ALL="0"
 
 # Motorola S9-HD
-EnforceMasterRole KEY_BDADDR="00:0d:fd:*" KEY_LMP_MFCT="10" KEY_LMP_VER="4:5363"
-EnforceMasterRole KEY_BDADDR="00:0d:fd:*" KEY_LMP_MFCT="10" KEY_LMP_VER="3:3728"
+#EnforceMasterRole KEY_BDADDR="00:0d:fd:*" KEY_LMP_MFCT="10" KEY_LMP_VER="4:5363" KEY_DIR_ALL="0"
 
 # Samsung SBH650 Stereo HS
 #EnforceMasterRole KEY_BDADDR="a0:07:98:*" KEY_LMP_MFCT="10" KEY_LMP_VER="3:4277" KEY_DIR_ALL="0"
@@ -109,13 +109,6 @@ EnforceMasterRole KEY_BDADDR="00:0d:e6:*"
 
 /* SAMSUNG SBH700 */
 EnforceMasterRole KEY_BDADDR="00:1e:e1:*" KEY_LMP_MFCT="10" KEY_LMP_VER="2:3328"
-
-/* Motorola S805 */
-EnforceMasterRole KEY_BDADDR="00:0c:55:*" KEY_LMP_MFCT="10" KEY_LMP_VER="3:2625"
-EnforceMasterRole KEY_BDADDR="00:1a:0e:*" KEY_LMP_MFCT="10" KEY_LMP_VER="3:2625"
-
-/* Motorola HT820 */
-EnforceMasterRole KEY_BDADDR="00:07:a4:*" KEY_LMP_MFCT="10" KEY_LMP_VER="2:2660"
 
 #---------------------------------------------------------------------
 # :: Delayed role switch exception
@@ -356,14 +349,10 @@ ProcessAvrcKey KEY_BDADDR="00:23:3d:*"
 /* CADILLAC CUE */
 ProcessAvrcKey KEY_BDADDR="04:98:f3:*"
 /* FIAT VP4 (Chrysler) */
-ProcessAvrcKey KEY_BDADDR="30:14:4a:*"
+ProcessAvrcKey KEY_BDADDR="30:14:4A:*"
 /* Volkswagen Touareg */
 ProcessAvrcKey KEY_BDADDR="9c:df:03:*"
-/* Seat BT AC */
-ProcessAvrcKey KEY_BDADDR="e0:75:0a:*"
-/* My Car (Nissan) */
-ProcessAvrcKey KEY_BDADDR="00:09:93:*" 
-/*  FIAT VP2 (Uconnect) */ProcessAvrcKey KEY_BDADDR="9c:28:bf:*" /* Audi02 */ProcessAvrcKey KEY_BDADDR="ac:7a:4d:*" 
+
 #---------------------------------------------------------------------
 # :: Wait before sending call end indication +CIEV:1,0.
 #
@@ -471,102 +460,3 @@ AvChangeAvrcpVersion KEY_BDADDR="00:09:93:*"
 RejectEScoConnReq KEY_BDADDR="00:0d:fd:*"
 /* PLT_K100 */
 RejectEScoConnReq KEY_BDADDR="00:23:7f:*"
-
-#----------------------------------------------------------------------
-#   :: Enforce slave role
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-#         KEY_LMP_VER    : LMP version & subversion
-#         KEY_LMP_MFCT   : Manufacturer
-#         KEY_DIR_ALL    : 0 to apply only for incoming connections
-#                          1 to allow for all directions (default if key not present)
-#
-
-/* Bose */
-EnforceSlaveRole KEY_BDADDR="00:0c:8a:*" KEY_DIR_ALL="0"
-/* BMW_ULF */
-EnforceSlaveRole KEY_BDADDR="00:09:93:*" KEY_DIR_ALL="0"
-/* Tenqa */
-EnforceSlaveRole KEY_BDADDR="00:23:01:*" KEY_DIR_ALL="0"
-/* Savox */
-EnforceSlaveRole KEY_BDADDR="00:15:be:*" KEY_DIR_ALL="0"
-
-#----------------------------------------------------------------------
-#   :: Disable slave role
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* BlueMe */
-DisableSniff KEY_BDADDR="a9:b1:c8:*"
-/* BlueMe */
-DisableSniff KEY_BDADDR="00:14:09:*"
-/* PCM */
-DisableSniff KEY_BDADDR="00:0e:9f:*"
-/* NISSAN */
-#DisableSniff KEY_BDADDR="38:c0:96:*"
-
-#----------------------------------------------------------------------
-#   :: Extend sniff time
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* MBBluetooth NTG3.0 */
-ExtendSniffTime KEY_BDADDR="00:13:1e:*"
-/* KIA Carkit */
-#ExtendSniffTime KEY_BDADDR="00:1e:b2:*"
-/* AUDI */
-#ExtendSniffTime KEY_BDADDR="00:1e:43:*"
-
-#----------------------------------------------------------------------
-#   :: Skip disable sniff policy
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* Samsung BKB A1 */
-SkipDisableSniff KEY_BDADDR="00:19:01:*"
-/* Samsung BKB A2 */
-SkipDisableSniff KEY_BDADDR="20:73:0d:*"
-/* Samsung BKB 10 */
-SkipDisableSniff KEY_BDADDR="90:7f:61:*"
-
-#----------------------------------------------------------------------
-#   :: Don't care ESCO Retransmission
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* Plantronics E240 */
-EscoRetransDontcare KEY_BDADDR="00:23:7f:*"
-
-#----------------------------------------------------------------------
-#   :: Skip Send Sdp Info request
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* PRC ECO2 */
-SkipSdpInfo KEY_BDADDR="00:07:80:*"
-
-#----------------------------------------------------------------------
-#   :: Exception to avoid sending +CIEV: 2,3 on call alerting
-#
-#      AVAILABLE KEYS :
-#
-#         KEY_BDADDR     : Remote bd address
-
-/* 2014 Chrysler Town & Country (New Jersey) */
-AvoidAlertingCarkit KEY_BDADDR="e0:75:0a:*"
-/* Chrysler LLC: PLC 0 (Dallas) */
-AvoidAlertingCarkit KEY_BDADDR="04:76:6e:*"
-/* Toyota Sienna (Dallas) */
-AvoidAlertingCarkit KEY_BDADDR="64:d4:bd:*"
