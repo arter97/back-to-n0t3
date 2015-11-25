@@ -4,8 +4,8 @@
 	<PublicName>SM-N920C</PublicName>
 	</MobileData>
 	<CustomerDataSet>
-	<CSCName>N920COJP</CSCName>
-	<CSCVersion>2AOJ5</CSCVersion>
+	<CSCName>N920COXE</CSCName>
+	<CSCVersion>2AOK5</CSCVersion>
 	<NbCustomer>34</NbCustomer>
 	<CustomerData src="/Customer/AFG/customer.xml" />
 	<CustomerData src="/Customer/BTC/customer.xml" />

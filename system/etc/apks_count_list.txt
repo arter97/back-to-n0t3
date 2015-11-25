@@ -60,8 +60,8 @@
 /system/app/Bridge/Bridge.apk
 /system/app/ChromecastFrameworkService/ChromecastFrameworkService.apk
 /system/app/NfcNci/NfcNci.apk
-/system/app/withTV/withTV.apk
 /system/app/GameOptimizer/GameOptimizer.apk
+/system/app/withTV/withTV.apk
 /system/app/MobilePrintSvc_Samsung/MobilePrintSvc_Samsung.apk
 /system/app/Bluetooth/Bluetooth.apk
 /system/app/EmergencyLauncher/EmergencyLauncher.apk
@@ -177,8 +177,8 @@
 /system/app/ringtoneBR/ringtoneBR.apk
 /system/app/MapconContentProvider/MapconContentProvider.apk
 /system/app/KnoxAttestationAgent/KnoxAttestationAgent.apk
-/system/app/UserDictionaryProvider/UserDictionaryProvider.apk
 /system/app/TcpdumpService/TcpdumpService.apk
+/system/app/UserDictionaryProvider/UserDictionaryProvider.apk
 /system/app/SplitSoundService/SplitSoundService.apk
 /system/app/EdmSimPinService/EdmSimPinService.apk
 /system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk
@@ -236,6 +236,7 @@
 /system/priv-app/DirectShareManager/DirectShareManager.apk
 /system/priv-app/RNB/RNB.apk
 /system/priv-app/FotaClient/FotaClient.apk
+/system/priv-app/SPPPushClient_Prod/SPPPushClient_Prod.apk
 /system/priv-app/GearManager/GearManager.apk
 /system/priv-app/SPDClient/SPDClient.apk
 /system/priv-app/ImsLogger+/ImsLogger+.apk
@@ -265,7 +266,6 @@
 /system/priv-app/InputDevices/InputDevices.apk
 /system/priv-app/SecCalendarProvider_NOTSTICKER/SecCalendarProvider_NOTSTICKER.apk
 /system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk
-/system/priv-app/SPPPushClient_Prod/SPPPushClient_Prod.apk
 /system/priv-app/AutoPreconfig/AutoPreconfig.apk
 /system/priv-app/VpnDialogs/VpnDialogs.apk
 /system/priv-app/WallpaperCropper2/WallpaperCropper2.apk
@@ -308,8 +308,8 @@
 /system/priv-app/FusedLocation/FusedLocation.apk
 /system/priv-app/Word_SamsungStub/Word_SamsungStub.apk
 /system/priv-app/WallpaperCompression/WallpaperCompression.apk
-/system/priv-app/FaceProvider/FaceProvider.apk
 /system/priv-app/TransmitPowerService/TransmitPowerService.apk
+/system/priv-app/FaceProvider/FaceProvider.apk
 /system/priv-app/Kies/Kies.apk
 /system/priv-app/Multiverse/Multiverse.apk
 /system/priv-app/SecEmbeddedServerService/SecEmbeddedServerService.apk
