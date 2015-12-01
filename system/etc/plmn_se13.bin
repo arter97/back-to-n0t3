@@ -19,6 +19,12 @@ GR COSMOTE"C-OTE
 NL Telfort"NL Tlfrt
 
 20416T-Mobile NL"TMO NL
+!
+20601Proximus Bel"Proximus
+
+20610MOBISTAR"BELMO
+
+20620Base Company"BE
 
 20801Orange F"Orange
 
@@ -130,6 +136,8 @@ T-Mobile A"TMA
 23212yesss!"yesss!
 #
 23403Airtel-Vodafone"ATL-VOD
+$
+23407Cable&Wireless UK"C&W UK
 
 23410O2 - UK"O2 - UK
 
@@ -154,8 +162,8 @@ T-Mobile A"TMA
 23455Sure"Sure
 
 23458Manx Telecom"MANX
-
-23801TDC"TD
+
+23801DNKTD"TD
 
 23802
 Telenor DK"TelenoDK
@@ -181,8 +189,8 @@ Telenor DK"TelenoDK
 
 24008
 Telenor SE"TelenorS
-
-24014TDC"TD
+
+24014SWETD"TD
 
 24024
 Telenor SE"TelenorS
@@ -194,8 +202,8 @@ Telenor SE"TelenorS
 24204Mobile Norway"Mobile N
 "
 24205Mobile Norway"Mobile N
-
-24208TDC"TD
+
+24208NORTD"TD
 
 24214ice.net"ice.net
 
@@ -1281,8 +1289,8 @@ BEELINE TJ"BEELINE
 44050KDDI"KDDI
 
 44051KDDI"KDDI
-
-45001Samsung"2
+$
+45001Samsung Test Bed"Samsung
 
 45002KT"KT
 
@@ -1354,8 +1362,8 @@ Beeline KH"Beeline
 45702ETL MOBILE NETWORK"ETLMNW
 
 45703Unitel"UNITEL
-
-45708Beeline LAO"Beeline
+
+45708TIGO LAO"TIGO
 
 46000CHINA MOBILE"CMCC
 
@@ -1409,8 +1417,6 @@ KGT-Online"KGT
 50218U MOBILE"U MOBILE
 
 50219	MY CELCOM"CELCOM
-
-502152YES"YES
 
 502156MYSALTEL"ALTEL
 "
@@ -1708,8 +1714,6 @@ Orange RDC"Orange
 63104MOVICEL"AGOMV
 
 63202MTN"MTN
-
-63203	Orange BS"Orange B
 
 63301C&W SEY"C&W SEY
 
@@ -1959,8 +1963,6 @@ TIM BRASIL"TIM
 732111TIGO"TIGO
 
 732123Movistar"Movistar
-
-732130Avantel"Avantel
 
 732187ETB 4G"ETB
 
@@ -2016,9 +2018,11 @@ TIM BRASIL"TIM
 AeroMobile"AeroMob
 
 90115OnAir"OnAir
+
+90118WMS"WMS
 
 90126TIM@sea"TIM@sea
 
 90145AISatSea"AISatSea
 
-99899UZMOBILE"UZMOBILE%Published TS 25 Database 27 July 2015
+99899UZMOBILE"UZMOBILEPublished TS
